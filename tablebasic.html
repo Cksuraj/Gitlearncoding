@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BASIC OF HTML</title>
+</head>
+<body>
+	<h4>table with empty cell</h4>
+<table border="1">
+	<tr>
+		<td>row 1 cell 1</td>
+		<td>row 1 cell 2</td>
+	</tr>
+	<tr>
+		<td>row 2 cell 1</td>
+		<td></td>
+	</tr>
+</table>
+<h4>table with caption</h4>
+<table border="1">
+	<caption>this is caption</caption>
+	<tr>
+		<td>1000</td>
+		<td>1000</td>
+		<td>1000</td>
+	</tr>
+</table>
+
+<h4>cell spanning with multiple columns</h4>
+<table border="1">
+	<tr>
+		<th>name</th>
+		<th colspan="2">telephone </th>
+		</tr>
+		<tr>
+			<td>bill gates</td>
+			<td>555 777 547441414</td>
+			<td>777 78787 547854556</td>
+		</tr>
+</table>
+<h4>cell that two rows</h4>
+<table border="1">
+	<tr>
+		<th>first name</th>
+		<td>bill gates</td>
+	</tr>
+	<tr>
+		<th rowspan="2">telphone</th>
+		<td>555 458458458 666</td>
+	</tr>
+	<tr>
+		<td>888 9999458954725</td>
+	</tr>
+</table>
+
+<h4>cell padding</h4>
+<p>to creat more white space between cell content and its border.</p>
+<table border="1" cellpadding="15">
+	<tr>
+		<td>first no</td>
+		<td>second no</td>
+	</tr>
+	<tr>
+		<td>third no</td>
+		<td>fourth no</td>
+	</tr>
+</table>
+
+<h4>cell spacing</h4>
+<p>to increasing the distance between the cells</p>
+<table border="1" cellspacing="16">
+	<tr>
+		<td>student 1</td>
+		<td>student 2</td>
+		<td>student 3</td>
+	</tr>
+</table>
+
+<h4>table align all content</h4>
+<table border="2" width="400">
+	<tr>
+		<td align="left">lightinng spray111</td>
+		<td align="right">lightning sparay 2</td>
+	</tr>
+	<tr>
+		<td align="left">lightinng spray222</td>
+		<td align="right">lightning sparay 2</td>
+	</tr>
+</table>
+<h4>With frame="border":</h4>
+
+<table frame="border">
+	<tr>
+		<td>First</td>
+		<td>Row</td>
+	</tr>
+	<tr>
+		<td>Second</td>
+		<td>Row</td>
+	</tr>
+</table>
+<h4>With frame="above":</h4>
+
+<table frame="above"><!--you can used also hside and below,lhs rhs vside attribute-->
+	<tr>
+		<td>First</td>
+		<td>Row</td>
+	</tr>
+	<tr>
+		<td>Second</td>
+		<td>Row</td>
+	</tr>
+</table>
+
+<h3>DROP DOWN LIST</h3>
+<form action="">
+<select name="cars">
+	<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</form>
+
+<h4>text area of form </h4>
+
+	<p>Using a textarea (a multiline text input control)you can
+write an unlimited number of characters. A textarea can be in a form or elsewhere
+on a page.</p>
+	<textarea rows="10" cols="30"> The cat was playing in the
+garden. </textarea>
+
+<h4>fieldset option </h4>
+
+<label>A fieldset is a grouping of data fields. This example demonstrates how to draw a
+border with a caption around your data</label>
+
+<fieldset>
+	<legend>Health information:</legend>
+	<form action="">
+		Height <input type="text" size="3">
+		Weight <input type="text" size="3">
+	</form>
+</fieldset>
+
+<label>A named anchor:
+<a name="tips">Useful Tips Section</a>
+<a href="#tips">Jump to the Useful Tips Section</a>
+(& lt; is the same as <)
+(& gt; is the same as >)
+(& #169; is the same as ©)</label>
+
+<h4>frames</h4>
+<label>
+	<frameset cols="25%,75%">
+		<frame src="page1.html">
+		<frame src="page2.html">
+	</frameset>
+</label>
+
+</body>
+</html>
